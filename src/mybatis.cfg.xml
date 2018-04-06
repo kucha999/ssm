@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<!-- 实体类的别名：类名即别名 -->
+	<typeAliases>
+		<package name="cn.sxt.entity"/>
+	</typeAliases>
+	
+
+	
+	<!-- 实体类映射的mapper文件 -->
+	<mappers>
+		 <mapper resource="cn/sxt/entity/user.mapper.xml"/> 
+	</mappers> 
+</configuration>
